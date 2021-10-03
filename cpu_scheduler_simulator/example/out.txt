@@ -1,0 +1,441 @@
+loading [p1.txt], pid: 1, events:7loading [p2.txt], pid: 2, events:7loading [p3.txt], pid: 3, events:7loading [p4.txt], pid: 4, events:7num processes in queue 4
+************** TIME: 00000000 **************
+	create pid:1
+	create pid:3
+	create pid:4
+	running pid: -1
+************** TIME: 00000001 **************
+	create pid:2
+	running pid: 1
+		remaining time:0
+		end burst
+		move to waiting
+************** TIME: 00000002 **************
+	waiting pid: 1
+		remaining time:29
+	running pid: 3
+		remaining time:2
+************** TIME: 00000003 **************
+	waiting pid: 1
+		remaining time:28
+	running pid: 4
+		remaining time:2
+************** TIME: 00000004 **************
+	waiting pid: 1
+		remaining time:27
+	running pid: 2
+		remaining time:4
+************** TIME: 00000005 **************
+	waiting pid: 1
+		remaining time:26
+	running pid: 2
+		remaining time:3
+************** TIME: 00000006 **************
+	waiting pid: 1
+		remaining time:25
+	running pid: 2
+		remaining time:2
+************** TIME: 00000007 **************
+	waiting pid: 1
+		remaining time:24
+	running pid: 2
+		remaining time:1
+************** TIME: 00000008 **************
+	waiting pid: 1
+		remaining time:23
+	running pid: 2
+		remaining time:0
+		end burst
+		move to ready
+************** TIME: 00000009 **************
+	waiting pid: 1
+		remaining time:22
+	running pid: 2
+		remaining time:4
+************** TIME: 00000010 **************
+	waiting pid: 1
+		remaining time:21
+	running pid: 2
+		remaining time:3
+************** TIME: 00000011 **************
+	waiting pid: 1
+		remaining time:20
+	running pid: 2
+		remaining time:2
+************** TIME: 00000012 **************
+	waiting pid: 1
+		remaining time:19
+	running pid: 2
+		remaining time:1
+************** TIME: 00000013 **************
+	waiting pid: 1
+		remaining time:18
+	running pid: 2
+		remaining time:0
+		end burst
+		move to waiting
+************** TIME: 00000014 **************
+	waiting pid: 1
+		remaining time:17
+	waiting pid: 2
+		remaining time:2
+	running pid: -1
+************** TIME: 00000015 **************
+	waiting pid: 1
+		remaining time:16
+	waiting pid: 2
+		remaining time:1
+	running pid: -1
+************** TIME: 00000016 **************
+	waiting pid: 1
+		remaining time:15
+	waiting pid: 2
+		remaining time:0
+		end burst
+		move to ready
+	running pid: -1
+************** TIME: 00000017 **************
+	waiting pid: 1
+		remaining time:14
+	running pid: 2
+		remaining time:4
+************** TIME: 00000018 **************
+	waiting pid: 1
+		remaining time:13
+	running pid: 2
+		remaining time:3
+************** TIME: 00000019 **************
+	waiting pid: 1
+		remaining time:12
+	running pid: 2
+		remaining time:2
+************** TIME: 00000020 **************
+	waiting pid: 1
+		remaining time:11
+	running pid: 2
+		remaining time:1
+************** TIME: 00000021 **************
+	waiting pid: 1
+		remaining time:10
+	running pid: 2
+		remaining time:0
+		end burst
+		move to waiting
+************** TIME: 00000022 **************
+	waiting pid: 1
+		remaining time:9
+	waiting pid: 2
+		remaining time:2
+	running pid: -1
+************** TIME: 00000023 **************
+	waiting pid: 1
+		remaining time:8
+	waiting pid: 2
+		remaining time:1
+	running pid: -1
+************** TIME: 00000024 **************
+	waiting pid: 1
+		remaining time:7
+	waiting pid: 2
+		remaining time:0
+		end burst
+		move to ready
+	running pid: -1
+************** TIME: 00000025 **************
+	waiting pid: 1
+		remaining time:6
+	running pid: 2
+		remaining time:4
+************** TIME: 00000026 **************
+	waiting pid: 1
+		remaining time:5
+	running pid: 2
+		remaining time:3
+************** TIME: 00000027 **************
+	waiting pid: 1
+		remaining time:4
+	running pid: 2
+		remaining time:2
+************** TIME: 00000028 **************
+	waiting pid: 1
+		remaining time:3
+	running pid: 2
+		remaining time:1
+************** TIME: 00000029 **************
+	waiting pid: 1
+		remaining time:2
+	running pid: 2
+		remaining time:0
+		end burst
+		move to ready
+************** TIME: 00000030 **************
+	waiting pid: 1
+		remaining time:1
+	running pid: 2
+		remaining time:4
+************** TIME: 00000031 **************
+	waiting pid: 1
+		remaining time:0
+		end burst
+		move to ready
+	running pid: 2
+		remaining time:3
+************** TIME: 00000032 **************
+	running pid: 1
+		remaining time:0
+		end burst
+		move to waiting
+************** TIME: 00000033 **************
+	waiting pid: 1
+		remaining time:29
+	running pid: -1
+************** TIME: 00000034 **************
+	waiting pid: 1
+		remaining time:28
+	running pid: -1
+************** TIME: 00000035 **************
+	waiting pid: 1
+		remaining time:27
+	running pid: -1
+************** TIME: 00000036 **************
+	waiting pid: 1
+		remaining time:26
+	running pid: -1
+************** TIME: 00000037 **************
+	waiting pid: 1
+		remaining time:25
+	running pid: -1
+************** TIME: 00000038 **************
+	waiting pid: 1
+		remaining time:24
+	running pid: -1
+************** TIME: 00000039 **************
+	waiting pid: 1
+		remaining time:23
+	running pid: -1
+************** TIME: 00000040 **************
+	waiting pid: 1
+		remaining time:22
+	running pid: -1
+************** TIME: 00000041 **************
+	waiting pid: 1
+		remaining time:21
+	running pid: -1
+************** TIME: 00000042 **************
+	waiting pid: 1
+		remaining time:20
+	running pid: -1
+************** TIME: 00000043 **************
+	waiting pid: 1
+		remaining time:19
+	running pid: -1
+************** TIME: 00000044 **************
+	waiting pid: 1
+		remaining time:18
+	running pid: -1
+************** TIME: 00000045 **************
+	waiting pid: 1
+		remaining time:17
+	running pid: -1
+************** TIME: 00000046 **************
+	waiting pid: 1
+		remaining time:16
+	running pid: -1
+************** TIME: 00000047 **************
+	waiting pid: 1
+		remaining time:15
+	running pid: -1
+************** TIME: 00000048 **************
+	waiting pid: 1
+		remaining time:14
+	running pid: -1
+************** TIME: 00000049 **************
+	waiting pid: 1
+		remaining time:13
+	running pid: -1
+************** TIME: 00000050 **************
+	waiting pid: 1
+		remaining time:12
+	running pid: -1
+************** TIME: 00000051 **************
+	waiting pid: 1
+		remaining time:11
+	running pid: -1
+************** TIME: 00000052 **************
+	waiting pid: 1
+		remaining time:10
+	running pid: -1
+************** TIME: 00000053 **************
+	waiting pid: 1
+		remaining time:9
+	running pid: -1
+************** TIME: 00000054 **************
+	waiting pid: 1
+		remaining time:8
+	running pid: -1
+************** TIME: 00000055 **************
+	waiting pid: 1
+		remaining time:7
+	running pid: -1
+************** TIME: 00000056 **************
+	waiting pid: 1
+		remaining time:6
+	running pid: -1
+************** TIME: 00000057 **************
+	waiting pid: 1
+		remaining time:5
+	running pid: -1
+************** TIME: 00000058 **************
+	waiting pid: 1
+		remaining time:4
+	running pid: -1
+************** TIME: 00000059 **************
+	waiting pid: 1
+		remaining time:3
+	running pid: -1
+************** TIME: 00000060 **************
+	waiting pid: 1
+		remaining time:2
+	running pid: -1
+************** TIME: 00000061 **************
+	waiting pid: 1
+		remaining time:1
+	running pid: -1
+************** TIME: 00000062 **************
+	waiting pid: 1
+		remaining time:0
+		end burst
+		move to ready
+	running pid: -1
+************** TIME: 00000063 **************
+	running pid: 1
+		remaining time:0
+		end burst
+		move to waiting
+************** TIME: 00000064 **************
+	waiting pid: 1
+		remaining time:29
+	running pid: -1
+************** TIME: 00000065 **************
+	waiting pid: 1
+		remaining time:28
+	running pid: -1
+************** TIME: 00000066 **************
+	waiting pid: 1
+		remaining time:27
+	running pid: -1
+************** TIME: 00000067 **************
+	waiting pid: 1
+		remaining time:26
+	running pid: -1
+************** TIME: 00000068 **************
+	waiting pid: 1
+		remaining time:25
+	running pid: -1
+************** TIME: 00000069 **************
+	waiting pid: 1
+		remaining time:24
+	running pid: -1
+************** TIME: 00000070 **************
+	waiting pid: 1
+		remaining time:23
+	running pid: -1
+************** TIME: 00000071 **************
+	waiting pid: 1
+		remaining time:22
+	running pid: -1
+************** TIME: 00000072 **************
+	waiting pid: 1
+		remaining time:21
+	running pid: -1
+************** TIME: 00000073 **************
+	waiting pid: 1
+		remaining time:20
+	running pid: -1
+************** TIME: 00000074 **************
+	waiting pid: 1
+		remaining time:19
+	running pid: -1
+************** TIME: 00000075 **************
+	waiting pid: 1
+		remaining time:18
+	running pid: -1
+************** TIME: 00000076 **************
+	waiting pid: 1
+		remaining time:17
+	running pid: -1
+************** TIME: 00000077 **************
+	waiting pid: 1
+		remaining time:16
+	running pid: -1
+************** TIME: 00000078 **************
+	waiting pid: 1
+		remaining time:15
+	running pid: -1
+************** TIME: 00000079 **************
+	waiting pid: 1
+		remaining time:14
+	running pid: -1
+************** TIME: 00000080 **************
+	waiting pid: 1
+		remaining time:13
+	running pid: -1
+************** TIME: 00000081 **************
+	waiting pid: 1
+		remaining time:12
+	running pid: -1
+************** TIME: 00000082 **************
+	waiting pid: 1
+		remaining time:11
+	running pid: -1
+************** TIME: 00000083 **************
+	waiting pid: 1
+		remaining time:10
+	running pid: -1
+************** TIME: 00000084 **************
+	waiting pid: 1
+		remaining time:9
+	running pid: -1
+************** TIME: 00000085 **************
+	waiting pid: 1
+		remaining time:8
+	running pid: -1
+************** TIME: 00000086 **************
+	waiting pid: 1
+		remaining time:7
+	running pid: -1
+************** TIME: 00000087 **************
+	waiting pid: 1
+		remaining time:6
+	running pid: -1
+************** TIME: 00000088 **************
+	waiting pid: 1
+		remaining time:5
+	running pid: -1
+************** TIME: 00000089 **************
+	waiting pid: 1
+		remaining time:4
+	running pid: -1
+************** TIME: 00000090 **************
+	waiting pid: 1
+		remaining time:3
+	running pid: -1
+************** TIME: 00000091 **************
+	waiting pid: 1
+		remaining time:2
+	running pid: -1
+************** TIME: 00000092 **************
+	waiting pid: 1
+		remaining time:1
+	running pid: -1
+************** TIME: 00000093 **************
+	waiting pid: 1
+		remaining time:0
+		end burst
+		move to ready
+	running pid: -1
+************** TIME: 00000094 **************
+	running pid: 1
+		remaining time:0
+		end burst
+		end process

@@ -1,0 +1,17 @@
+Composizione gruppo : Diego Petrucci 1783255
+e-mail di riferimento: petrucci.1783255@studenti.uniroma1.it
+Progetto scelto: Multi-CPU scheduler simulator
+
+Obiettivo:Estendere il simulatore di scheduler visto in classe a un multi-core CPU.
+
+Per prima cosa, nel file fake_os.h, ho modificato il puntatore FakePCB*running in un array di puntatori alla struct FakePCB, l'array
+è stato dichiarato con dimensione equa al numero di core che si vuole simulare, in questo caso un quad-core con #define num_core 4(dichiarato in fake_os.h).
+Dopodichè ho modificato funzioni come FakeOS_init in modo che inizializzassero le CPU in running a 0, usando
+un semplice for e "num_core" come limite superiore. In FakeOs.c ho modificato varie sezioni come FakeOS_createProcess per controllare che nella
+lista dei pcb ci fosse un pcb avente lo stesso pid, controllado per ogni core.
+Nella funzione cuore del programma, FakeOS_simStep, ho modificato la gestione dei processi in running, ovvero la parte
+in cui si decrementa la durata di running e si vede se rischedulare il processo o mettere running a 0. Ho modificato questa sezione semplicemente mettendo un for
+e usano nuovamente la variabile "num_core" per gestire i vari core che sono in esecuzione. Per finire in fake_os.c ho modificato la chiamata allo scheduler Round Robin
+aggiungento la variabile "core", con cui lo scheduler saprà a quale running ci stiamo riferendo. Inoltre se un core è fermo e la ready queue non è vuota allora metto
+il primo processo in ready queue nel primo core disponibile controllando dal primo fino al quarto. Per finire ho aggiunto, alla fine di sched_sim.c, delle print per 
+controllare lo stato finale delle code di waiting e di ready e il tempo totale impiegato (step del os.timer).
